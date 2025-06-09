@@ -122,7 +122,9 @@ Fonctionnalités :
 
 ## 💡 Démonstration
 
-![Demo](https://i.imgur.com/zK0bp2Z.mp4)
+![Demo](https://i.ibb.co/NgskjKPV/gif.gif)
+
+https://i.ibb.co/NgskjKPV/gif.gif
 
 ---
 
