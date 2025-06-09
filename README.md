@@ -1,7 +1,7 @@
 
 # ⚔️ Bot Dofus — Combats & Farming de Donjon Automatisés
 
-Bienvenue dans **Bot Dofus**, un script Python complet pour automatiser les combats et le farming dans **Dofus Retro** et **Dofus 2.0**. Ce bot propose deux modules :
+Bienvenue dans **KBot**, un script Python complet pour automatiser les combats et le farming dans **Dofus Retro** et **Dofus 2.0 (WIP)**. Ce bot propose deux modules :
 
 - 🤖 **Mode Combat** : gère les combats en boucle avec reconnaissance d'image.
 - 🗺️ **Mode Donjon** : automatise les combats dans des donjons multi-salles avec configuration fine.
@@ -76,7 +76,7 @@ Configuration via `config_donjon.json` :
 }
 ```
 
-- **mode** : `"1"` (attaque directe), `"2"` (clic sur une case), `"3"` (mode personnalisé)
+- **mode** : `"1"` (attaque directe), `"2"` (clic sur une case), `"3"` (mode personnalisé type Sadida Fourbe)
 - **coords** : coordonnées de ciblage (obligatoire en mode 2)
 - **move_enabled** : déplacement activé en début de combat
 - **move_coords** : coordonnées de déplacement
@@ -117,14 +117,14 @@ Fonctionnalités :
 
 Dans le dossier `/images`, un fichier `template.swf` sert de base pour détecter les monstres.
 
-> ✨ **Astuce** : Si tu veux farmer un monstre spécifique, remplace `template.swf` par un export `.swf` du mob ciblé. Renomme simplement ton fichier en `template.swf`, et place-le dans le dossier `/images`. Cela permet d’améliorer la détection par reconnaissance.
+> ✨ **Astuce** : Si tu veux farmer un monstre spécifique, remplace `template.swf` à la place du `.swf` du mob ciblé. Renomme simplement ton fichier `template.swf`, et place-le dans le dossier `/sprites` du jeu. Cela permet d’améliorer la détection par reconnaissance.
 
 ---
 
 ## 📁 Arborescence du Projet
 
 ```
-BotDofus/
+KBot/
 ├── config.txt
 ├── config_donjon.json
 ├── demarrage.bat
@@ -139,22 +139,23 @@ BotDofus/
 ├── __pycache__/
 ├── utils/
 └── images/
-    ├── mob.png
-    ├── pret.png
-    ├── avatar.png
-    ├── template.swf
-    ├── parler.png
-    ├── pnj_entree.png
-    ├── pnj_sortie.png
-    ├── autorisation_attack.png
-    ├── levelup.png
-    ├── bouton_x.png
-    ├── puissance.png
-    ├── sortir.png
-    ├── tremblement.png
-    ├── vent.png
     ├── retro/
+	    ├── mob.png
+  	  ├── pret.png
+  	  ├── avatar.png
+  	  ├── template.swf
+  	  ├── parler.png
+ 	   ├── pnj_entree.png
+ 	   ├── pnj_sortie.png
+ 	   ├── autorisation_attack.png
+ 	   ├── levelup.png
+ 	   ├── bouton_x.png
+  	  ├── puissance.png
+  	  ├── sortir.png
+  	  ├── tremblement.png
+  	  ├── vent.png
     └── dofus2/
+	[WIP]
 ```
 
 ---
@@ -184,12 +185,13 @@ customtkinter
 ---
 
 ## 📬 Support
-
-Pour toute question, suggestion ou bug :
-- 📧 [TonNomOuMail]
 - 🐙 Ouvre une issue sur GitHub
 
 ---
 
-Merci d’utiliser **Bot Dofus** !  
+⚠️ - Vous ne pouvez pas utiliser votre ordinateur pour autre chose pendant que KBOT est en cours d'exécution.
+⚠️ - Comme le bot simule un comportement humain normal, vous avez moins de chances d'être repéré par l'Anti-bot.
+⚠️ - L'objectif principal de ce bot est de simplifier les tâches répétitives et de réduire l'ennui pendant votre jeu.
+⚠️ - Nous n'encourageons pas le multi-boting et ne le supportons pas de toute façon (cela détruit l'économie d'un serveur).
+
 🧪 Bon farm, bon drop et à bientôt dans le Monde des Douze 🎮🐉
