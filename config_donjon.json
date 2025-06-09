@@ -1,0 +1,65 @@
+{
+    "nb_salles": 5,
+    "salles": [
+        {
+            "mode": "2",
+            "coords": [
+                1545,
+                400
+            ],
+            "move_enabled": false,
+            "move_coords": [
+                123,
+                123
+            ]
+        },
+        {
+            "mode": "2",
+            "coords": [
+                760,
+                750
+            ],
+            "move_enabled": false,
+            "move_coords": [
+                123,
+                123
+            ]
+        },
+        {
+            "mode": "2",
+            "coords": [
+                1480,
+                380
+            ],
+            "move_enabled": true,
+            "move_coords": [
+                950,
+                650
+            ]
+        },
+        {
+            "mode": "2",
+            "coords": [
+                1350,
+                570
+            ],
+            "move_enabled": true,
+            "move_coords": [
+                1400,
+                420
+            ]
+        },
+        {
+            "mode": "3",
+            "coords": [
+                123,
+                123
+            ],
+            "move_enabled": false,
+            "move_coords": [
+                123,
+                123
+            ]
+        }
+    ]
+}
