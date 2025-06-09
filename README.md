@@ -120,15 +120,6 @@ Fonctionnalités :
 
 ---
 
-## 💡 Démonstration
-
-![Demo](https://i.ibb.co/NgskjKPV/gif.gif)
-
-https://i.ibb.co/NgskjKPV/gif.gif
-
----
-
-
 ## 💡 Astuce : Personnaliser les Mobs avec un .SWF
 
 Dans le dossier `/images`, un fichier `template.swf` sert de base pour détecter les monstres.
