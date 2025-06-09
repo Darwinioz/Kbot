@@ -7,7 +7,12 @@ Bienvenue dans **KBot**, un script Python complet pour automatiser les combats e
 - 🗺️ **Mode Donjon** : automatise les combats dans des donjons multi-salles avec configuration fine.
 
 ---
+## ❗ DISCLAIMER
 
+Ce projet a un objectif strictement éducatif. Il me permet avant tout de découvrir le langage Python et d’explorer les capacités du modèle 3 de ChatGPT. Je tiens à préciser que je ne cautionne en aucun cas l’utilisation intensive de multi-botting. Cet outil doit plutôt être considéré comme un moyen simple de pallier une courte période d’inactivité, ou encore comme une aide pour les joueurs de Dofus disposant de temps limité, souhaitant progresser sans passer plusieurs heures à farmer devant leur ordinateur.
+Je décline toute responsabilité en cas de sanction ou de bannissement, lesquels seraient légitimes au regard des conditions générales d’utilisation de Dofus.
+
+---
 ## 🚀 Fonctionnalités
 
 - Compatibilité **Dofus Retro** et **Dofus 2.0**
@@ -30,11 +35,13 @@ Configuration via `config.txt` :
 ```
 retro
 1
-512,433
-0.5
+1606,767
+0.3
 p
-m
+p
 on
+off
+1080,850 
 ```
 
 - **Version** : `retro` ou `2.0`
@@ -145,11 +152,11 @@ KBot/
   	  ├── avatar.png
   	  ├── template.swf
   	  ├── parler.png
- 	   ├── pnj_entree.png
- 	   ├── pnj_sortie.png
- 	   ├── autorisation_attack.png
- 	   ├── levelup.png
- 	   ├── bouton_x.png
+          ├── pnj_entree.png
+          ├── pnj_sortie.png
+          ├── autorisation_attack.png
+          ├── levelup.png
+          ├── bouton_x.png
   	  ├── puissance.png
   	  ├── sortir.png
   	  ├── tremblement.png
@@ -186,12 +193,11 @@ customtkinter
 
 ## 📬 Support
 - 🐙 Ouvre une issue sur GitHub
-
 ---
 
-⚠️ - Vous ne pouvez pas utiliser votre ordinateur pour autre chose pendant que KBOT est en cours d'exécution.
+⚠️ - Vous ne pouvez pas utiliser votre ordinateur pour autre chose pendant que KBOT est en cours d'exécution (utilise la souris et le clavier).
 ⚠️ - Comme le bot simule un comportement humain normal, vous avez moins de chances d'être repéré par l'Anti-bot.
 ⚠️ - L'objectif principal de ce bot est de simplifier les tâches répétitives et de réduire l'ennui pendant votre jeu.
-⚠️ - Nous n'encourageons pas le multi-boting et ne le supportons pas de toute façon (cela détruit l'économie d'un serveur).
+⚠️ - **Nous n'encourageons pas le multi-boting et ne le supportons pas de toute façon** (cela détruit l'économie d'un serveur).
 
 🧪 Bon farm, bon drop et à bientôt dans le Monde des Douze 🎮🐉
