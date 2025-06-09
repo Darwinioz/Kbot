@@ -196,8 +196,11 @@ customtkinter
 ---
 
 ⚠️ - Vous ne pouvez pas utiliser votre ordinateur pour autre chose pendant que KBOT est en cours d'exécution (utilise la souris et le clavier).
+
 ⚠️ - Comme le bot simule un comportement humain normal, vous avez moins de chances d'être repéré par l'Anti-bot.
+
 ⚠️ - L'objectif principal de ce bot est de simplifier les tâches répétitives et de réduire l'ennui pendant votre jeu.
+
 ⚠️ - **Nous n'encourageons pas le multi-boting et ne le supportons pas de toute façon** (cela détruit l'économie d'un serveur).
 
 🧪 Bon farm, bon drop et à bientôt dans le Monde des Douze 🎮🐉
